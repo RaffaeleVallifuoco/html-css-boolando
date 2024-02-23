@@ -14,7 +14,8 @@ img {
 body {font-family: "Ysabeau Office", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
-    font-style: normal;}
+    font-style: normal;
+}
 
 .container {
     margin: 0 auto;
@@ -59,3 +60,6 @@ body {font-family: "Ysabeau Office", sans-serif;
     flex-direction: column;
 }
 
+.item_info.name {
+    color: bisque;
+}
