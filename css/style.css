@@ -1,0 +1,44 @@
+/* font */
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    
+}
+
+body {font-family: "Ysabeau Office", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;}
+
+.container {
+    margin: 0 auto;
+    max-width: 60%;
+
+}
+
+.booleando_header {
+    border: 2px solid black;
+  
+}
+
+.logo {
+    width: 300px;
+}
+
+.logo_text {
+    font-style: bold; 
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
