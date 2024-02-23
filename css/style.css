@@ -10,6 +10,56 @@ img {
     
 }
 
+
+a,ul,ol,menu {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.row {
+    display: flex;
+}
+
+/* HEADER */
+.page_header{
+   background-color:#FF6900;
+    color: white;
+}
+
+.page_header .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+
+.page_header .item {
+    flex-direction: row;
+}
+
+.page_header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav .item {
+    font-size: 18px;
+    padding: 10px;
+    line-height: 50px;
+}
+
+.page_header .nav_logo {
+   
+    font-style: bold;
+    font-size: 36px;
+}
+
+
+
+/* BODY */
 body {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -38,9 +88,6 @@ body {
     font-size: 18px;
 }
 
-.row {
-    display: flex;
-}
 
 .booleando_header .row {
     justify-content: center;
